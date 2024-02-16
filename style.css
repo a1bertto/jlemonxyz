@@ -1,0 +1,90 @@
+/* styles.css */
+@font-face {
+    font-family: autumfont;
+    src: url('fonts/Spongeboy\ Me\ Bob.ttf') ; 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #A39E66;
+    background-size: 300px 100px;
+    font-family: autumfont;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.navbar-custom {
+    background-color: #A39E66;
+    /*border-bottom: 2px solid #3D3B26;*/
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.ticker {
+    display: block;
+    margin: auto;
+    text-align: right;
+    margin-right: 50%;
+}
+
+ section {
+    display: block;
+    overflow:hidden;
+    background-color: #A39E66;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  
+}
+
+ h2, h3, p {
+    color: #ffffff;
+    font-family: autumfont ;
+    font-size: 40px ;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: autumfont ;
+    font-size: 70px;
+}
+.intro {
+    padding-top: 2%;
+   padding-left: 150px;
+    margin: 5px;
+}
+.desc{
+    display: block;
+    text-align: center; 
+    margin: auto; 
+
+}
+.btn {
+    background-color: #8ACA2B;
+    display: inline-block; 
+    border: 2px solid white; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+}
+
+
+#about,#roadmap{
+    display: block;
+    overflow:hidden;
+   background-color: #77734B;
+
+   /*border: 2px solid #ffffff;*/
+}
+
+#container-abt{
+    display: flex;
+
+}
+
+
