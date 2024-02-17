@@ -49,7 +49,10 @@ h1 {
     text-decoration: none; 
 }
 
-
+.social-link {
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Prevents the space that inline elements might add */
+}
 
 
 
@@ -64,7 +67,7 @@ h1 {
 }
 .jumbotron{
 background-color: #77734B;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 h1,h2 {
     color: white;
