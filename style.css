@@ -8,10 +8,9 @@
 }
 
 body {
-    background-color: #A39E66;
+    background-color: white;
     background-size: 300px 100px;
     font-family: autumfont;
-    color: #ffffff;
     font-size: 25px;
     text-align: center;
     
@@ -27,44 +26,20 @@ body {
     margin: auto;
 }
 
-.ticker {
-    display: block;
-    margin: auto;
-    text-align: right;
-    margin-right: 50%;
-}
 
- section {
-    display: block;
-    overflow:hidden;
-    background-color: #A39E66;
-    padding-bottom: 3%;
-    padding-top: 3%;
-  
-}
-
- h2, h3, p {
+ p {
     color: #ffffff;
     font-family: autumfont ;
     font-size: 40px ;
 }
 
 h1 {
-    color: #ffffff;
+    
     font-family: autumfont ;
     font-size: 70px;
 }
-.intro {
-    padding-top: 2%;
-   padding-left: 150px;
-    margin: 5px;
-}
-.desc{
-    display: block;
-    text-align: center; 
-    margin: auto; 
 
-}
+
 .btn {
     background-color: #8ACA2B;
     display: inline-block; 
@@ -75,20 +50,11 @@ h1 {
 }
 
 
-#about,#roadmap{
-    display: block;
-    overflow:hidden;
-   background-color: #77734B;
 
-   /*border: 2px solid #ffffff;*/
-}
 
-#container-abt{
-    display: flex;
 
-}
 .card  {
-    margin-bottom: 30px;
+    
     margin-top: 30px;
     width: 70%;
     height: 100%;
@@ -96,8 +62,12 @@ h1 {
    background-color: #8ACA2B;
    margin-left:20%;
 }
-#buyjumb{
+.jumbotron{
 background-color: #77734B;
+margin-bottom: 20px;
+}
+h1,h2 {
+    color: white;
 }
 
 
