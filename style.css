@@ -7,15 +7,6 @@
     
 }
 
-body {
-    background-color: white;
-    background-size: 300px 100px;
-    font-family: autumfont;
-    font-size: 25px;
-    text-align: center;
-    
-}
-
 .navbar-custom {
     background-color: #A39E66;
     /*border-bottom: 2px solid #3D3B26;*/
@@ -61,10 +52,10 @@ h1 {
     margin-top: 30px;
     width: 70%;
     height: 100%;
-    align-items: center;
    background-color: #8ACA2B;
-   margin-left:20%;
+
 }
+
 .jumbotron{
 background-color: #77734B;
 margin-bottom: 10px;
@@ -80,5 +71,20 @@ h1,h2 {
     
 }
 
+
+
+.cards-container {
+    width: 70%;
+}
+
+
+
+
+
+.section-container{
+    width: 50%;
+    text-align: center;
+    margin-left: 30%;
+}
 
 
