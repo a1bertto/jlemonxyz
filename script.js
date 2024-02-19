@@ -53,3 +53,27 @@ function updateNavItemText() {
         walletNavItem.querySelector('a').textContent = window.ethereum.selectedAddress ? 'Disconnect' : 'Connect to Wallet';
     }
 }
+
+// copytng ca to clickboard
+
+        function copyToClipboard(value) {
+            // Create a temporary textarea element
+            var textarea = document.createElement("textarea");
+            textarea.value = value;
+
+            // Append the textarea to the document
+            document.body.appendChild(textarea);
+
+            // Select the text in the textarea
+            textarea.select();
+            textarea.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the selected text to the clipboard
+            document.execCommand("copy");
+
+            // Remove the textarea from the document
+            document.body.removeChild(textarea);
+
+            // You can provide feedback to the user here (e.g., show a tooltip)
+            alert("Copied to clipboard: " + value);
+        }
