@@ -81,8 +81,9 @@ h1,h2 {
 .copy-box {
     padding: 1px; /* Adjust padding as needed */
     background-color: #6ea023; /* Background color */
-    color: #77734B; /* Text color */
+    color: white; /* Text color */
     cursor: pointer;
+    font-family: autumfont ;
 }
 
 .divider {
@@ -92,3 +93,10 @@ h1,h2 {
     margin-top: 20px; /* Adjust the margin as needed */
     margin-bottom: 20px; /* Adjust the margin as needed */
 }
+#socialscard{
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 75px;
+    justify-content: center;
+}   
