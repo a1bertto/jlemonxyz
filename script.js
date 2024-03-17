@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function directToUniswap (){
-    const tokenAddress = "0x82a7e44b8df7ee6f9a6d291602f2a18cb1cc0605";
+    const tokenAddress = "0x752A152987D2D8289B13bFA74F2599143F115237";
     //const ethAddress = "ETH_ADDRESS";
  const uniswapSwapURL = `https://app.uniswap.org/swap?outputCurrency=${tokenAddress}&inputCurrency=ETH`;
 
